@@ -1,0 +1,14 @@
+﻿body {
+}
+
+#header{
+	margin: 0px auto;
+	padding:20px 0px;
+}
+
+#Header h1{
+	padding:20px 0px;
+	font-size: 1.35em;
+	letter-spacing: .2em;
+	color: #555;
+}

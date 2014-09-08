@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Big Buck Bunny Trailer</title>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/index.js"></script>
+	<link href="css/index.css" rel="stylesheet" />
+</head>
+<body>
+
+	<main id="main">
+		<div id="container">
+			<img src="images/sound-icon-off.png" id="playSound" />		
+			<div id="overlay">
+				<div class="bubbleWrap">
+					<div class="bubble">Really?</div>
+					<div class="bubble-speak-wrap">
+						<img src="images/bubble-speak.png" />
+					</div>
+				</div>
+				<div id="controls">
+					<div id="playback">
+						<span id="start" class="button">Start</span>
+						<span id="pause" class="button">Pause</span>
+						<span id="stop" class="button">Stop</span>
+						<span id="skip" class="button">Skip</span>
+					</div>
+					<div id="progress">
+						<progress id="progressBar" value="0">
+						</progress>
+					</div>
+				</div>
+			</div>
+
+			<video id="bunnyVideo" width="1920" height="1080"></video>
+			<div id="interval"></div>
+			<div id="ui">
+				<p>A day in the life of Big Buck Bunny when he meets three bullying rodents, Frank, Rinky and Gamera. The rodents amuse themselves by harassing helpless creatures of the forest by throwing fruits, nuts and rocks at them. After the deaths of two of Bunny's favorite butterflies, and an offensive attack on Bunny himself, Bunny sets aside his gentle nature and orchestrates a complex plan for revenge.</p>				
+				<audio id="audio" loop="loop"></audio>
+			</div>
+		</div>
+	</main>
+
+</body>
+</html>

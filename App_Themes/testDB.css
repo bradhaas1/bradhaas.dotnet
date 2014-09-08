@@ -1,0 +1,29 @@
+﻿body {
+}
+
+.btnTestDB {
+	padding: 5px 0px;
+	margin: 5px 0px;
+	font-size: .5em;
+}
+
+.pnlResults {
+	/*margin:0px 0px 40px 30px;*/
+}
+
+.pnlResults input {
+	width: 70%;
+	float:right;	
+}
+
+.pnlResults label {
+	display:inline-block;
+	width: 25%;
+	margin-top:7px;
+}
+
+h2 {
+	margin-bottom:5px;
+}
+
+

@@ -1,0 +1,34 @@
+﻿function  displayProduct(item){
+
+		var displayImg = "http://g.nordstromimage.com/imagegallery/store/product/large/" + item.image_url + ".jpg";
+		alert(displayImg);
+
+		$("#product-display").append(displayImg);
+		//end = (page * 10) - 1;
+		//start = end - 9;
+
+		//$.ajax({
+		//	type: "GET",
+		//	url: "db/products-for-scrolling.json",
+		//	data: data,
+		//	success: function (data) {
+		//		var $contents = $.parseJSON(data);
+		//		$.each($contents.slice(start, end), function (i, item) {
+		//			displayProduct(item);
+		//		});
+		//	}
+		//});
+
+		$(this).css("background-color", "yellow");
+
+}
+
+
+
+function productList(item) {
+	var img = "<img src='http://g.nordstromimage.com/imagegallery/store/product/medium/" + item.image_url + ".jpg' />";
+	var name = "<h1>" + item.name + "</h1>";
+	product = $("<div class='product'>" + name + img +  "</div>")
+
+	$("#product-list").append(product);
+}

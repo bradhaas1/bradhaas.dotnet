@@ -1,0 +1,64 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="master-v1.master.cs" Inherits="master_v1" EnableTheming="true" ClientIDMode="Static" ViewStateMode="Enabled" EnableViewState="true" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+	<meta charset="utf-8" />
+	<title>Brad Haas | Web Development</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<script type="text/javascript" src="<%# Page.ResolveClientUrl("~/js/html5shiv.js") %>"></script>
+	<script type="text/javascript" src="<%# Page.ResolveClientUrl("~/js/jquery-1.11.1.min.js") %>"></script>
+
+	<script type='text/javascript'>
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function () {
+			var gads = document.createElement('script');
+			gads.async = true;
+			gads.type = 'text/javascript';
+			var useSSL = 'https:' == document.location.protocol;
+			gads.src = (useSSL ? 'https:' : 'http:') +
+			'//www.googletagservices.com/tag/js/gpt.js';
+			var node = document.getElementsByTagName('script')[0];
+			node.parentNode.insertBefore(gads, node);
+		})();
+	</script>
+
+	<script type='text/javascript'>
+		googletag.cmd.push(function () {
+			googletag.defineSlot('/78814430/480x60', [480, 60], 'div-gpt-ad-1403667339567-0').addService(googletag.pubads());
+			googletag.pubads().enableSingleRequest();
+			googletag.enableServices();
+		});
+	</script>
+
+
+
+</head>
+
+<body>
+	<div class="container">
+		<header>
+
+			<hr />
+			<h1>BRADHAAS.NET - WEB DEVELOPER</h1>
+			<hr />
+
+		<nav id="navMenu" runat="server"></nav>
+	</header>
+
+		<div class="content">
+			<form id="form1" runat="server" enableviewstate="true" action="#">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" EnableViewState="true"></asp:ContentPlaceHolder>
+			</form>
+		</div>
+
+		<div class="clearfix"></div>
+		<div id="footer">bradhaas.net</div>
+
+
+	</div>
+
+</body>
+</html>

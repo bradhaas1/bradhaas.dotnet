@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>JS Function Performance Benchmarking</title>
+	<script src="lib/jquery-1.11.1.min.js"></script>
+	<script src="tests/performance.js"></script> el
+	<link href="css/screen.css" rel="stylesheet" />
+</head>
+<body>
+
+	<div id="results" class="result">
+		<div>
+			<span class="label">Testing Function:</span><span class="functionName"></span><br />
+			<span class="label"># of Executions:</span><span class="counter"></span><br />
+			<span class="label">Average Execution Time:</span><span class="aet"></span><br />
+		</div>
+		<div id="form">
+			<span>Function Name: </span><input type="text" id="fName" /><br />
+			<span>Number of Executions: </span><input type="text" id="executions" /><br />
+			<textarea cols="85" rows="15" id="fContent"></textarea><br />
+			<button id="testBtn">Test Function</button>
+		</div>
+
+			<!--
+			<div id="history">
+			<h1>History</h1>
+			FunctionName 1.	Excutions	AverageExTime
+		</div>-->
+
+	</div>
+
+	
+</body>
+</html>

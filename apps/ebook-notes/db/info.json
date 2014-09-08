@@ -1,0 +1,13 @@
+﻿[
+	{		"title" : "Professional jQuery", "author" : "Cesar Otero", "content" : "professional-jquery"	},
+	{		"title" : "Professional JavaScript",	"author" : "Nicholas Z. Zakas",	"content" : "professional-javascript"	},
+	{		"title" : "Data Structures and Algorithms",	"author" : "Michael McMillan",	"content" : "data-structures-with-javascript"	},
+	{		"title" : "ASP.NET MVC4",	"author" : "Jose Rolando Guay Paz",	"content" : "asp-net-mvc4"	},
+	{		"title" : "The Book of CSS3",	"author" : "Peter Gasston",	"content" : "book-of-css3"	},
+	{		"title" : "Expert Javascript",	"author" : "Mark Daggett",	"content" : "expert-javascript"	},
+	{		"title" : "HTML5-JS Web Apps",	"author" : "Wesley Hales",	"content" : "html5-js-web-apps"	}
+
+
+
+
+]

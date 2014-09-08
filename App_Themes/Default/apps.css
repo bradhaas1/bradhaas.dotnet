@@ -1,0 +1,48 @@
+﻿/* CSS-Selectors */
+/************************************************/
+
+#CSS-Selectors{
+	width: 90%
+	margin-right: 3em;
+}
+
+#CSS-Selectors code{
+	display:block;
+	margin: 5px 0px 10px 45px;
+	font-family: 'Courier New';
+}
+
+article{
+	float:right;
+	width: 60%;
+	padding-right:10px;
+}
+
+
+/* CSS Selectors Page */
+/****************************************/
+#CSS-Selectors aside#example{
+	width:35%;
+	float:left;
+	padding: 20px 0 0 15px;
+}
+
+#CSS-Selectors aside#example code{
+	font-size: .95em;
+	margin: 5px 0px 10px 0px;
+}
+
+#CSS-Selectors aside#example .results{
+	margin-top: 10px;
+}
+
+#CSS-Selectors #codeExample{
+	display: none;
+}
+#CSS-Selectors textarea{
+	width:80%;
+}
+
+#iResults{
+	overflow:visible;
+}

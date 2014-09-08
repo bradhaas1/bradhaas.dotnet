@@ -1,0 +1,87 @@
+﻿body {
+
+}
+
+
+main{
+	display:block;
+	width:75%;
+	margin:auto;
+}
+
+#content, #header{
+	width:80%;
+	margin:auto;
+}
+
+
+
+/* Header
+**************************************************************/
+
+#header{
+	margin: 0 auto 0 auto;
+	padding: .5em 2em;
+	border-top: 6px solid #6a7180;
+	border-bottom: 3px solid #6a7180;
+}
+.headerLogo{
+	background:url("../images/nordstrom-logo.gif") 0 0 no-repeat;
+	width:379px;
+	height: 48px;
+}
+
+#header h3{
+	display:inline-block;
+	float:right;
+	font-style:oblique;
+	font-size:1em;
+	margin-top: .2em;
+}
+
+h1{
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	padding:0px;
+}
+
+p{
+	font-size: 16px;
+	padding: 20px;
+	background-color: #ddd;
+}
+
+#product-list{
+	float:left;
+	padding: 40px;
+
+}
+
+#product-list div{
+	font-size: 18px;
+
+}
+
+#product-display{
+	position: fixed;
+
+	top: 100px;
+	right:20px;
+
+}
+#product-display img{
+	float:right;
+}
+
+.brand{
+	display:block;
+	float:left;
+}
+
+.product h1:hover{
+	color: #ddd;
+}
+
+.product img:hover{
+	box-shadow: 5px 5px 5px #ddd ;
+}

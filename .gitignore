@@ -172,3 +172,8 @@ UpgradeLog*.htm
 
 # Microsoft Fakes
 FakesAssemblies/
+
+# site files
+bunny-trailer.zip
+bradhaas.net.zip
+test/
